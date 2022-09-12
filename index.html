@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Título da página</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+        }
+        #main{
+            position: absolute;
+            background-color: orange;
+            width: 300px;
+            height: 500px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 0px #c46900;
+        }
+        #screen{
+            margin: 30px 20px;
+            height: 70px;
+            background-color: #aadfff;
+            border-radius: 20px;
+        }
+        .button{
+            width: 65px;
+            height: 60px;
+            background-color: #ff7e15;
+            margin: 5px 5px;
+            float: left;
+            border-radius: 10px;
+            box-shadow: 2px 2px 0px #ff5415;
+        }
+        .button:hover{
+            background-color: #af560f;
+            box-shadow: none;
+        }
+        #equal, #c{
+            width: 140px;
+            height: 60px;
+        }
+        .num{
+            font-size: 2em;
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="screen">
+            
+        </div>
+        <div class="button" id="c">
+            <p class="num">c</p>
+        </div>
+        <div class="button" id="equal">
+            <p class="num">=</p>
+        </div>
+        <div class="button" id="seven">
+            <p class="num">7</p>
+        </div>
+        <div class="button" id="eight">
+            <p class="num">8</p>
+        </div>
+        <div class="button" id="nine">
+            <p class="num">9</p>
+        </div>
+        <div class="button" id="division">
+            <p class="num">/</p>
+        </div>
+        <div class="button" id="four">
+            <p class="num">4</p>
+        </div>
+        <div class="button" id="five">
+            <p class="num">5</p>
+        </div>
+        <div class="button" id="six">
+            <p class="num">6</p>
+        </div>
+        <div class="button" id="multi">
+            <p class="num">x</p>
+        </div>
+        <div class="button" id="one">
+            <p class="num">1</p>
+        </div>
+        <div class="button" id="two">
+            <p class="num">2</p>
+        </div>
+        <div class="button" id="three">
+            <p class="num">3</p>
+        </div>
+        <div class="button" id="negative">
+            <p class="num">-</p>
+        </div>
+        <div class="button" id="opc1">
+            <p class="num">opc</p>
+        </div>
+        <div class="button" id="zero">
+            <p class="num">0</p>
+        </div>
+        <div class="button" id="opc2">
+            <p class="num">opc</p>
+        </div>
+        <div class="button" id="plus">
+            <p class="num">+</p>
+        </div>
+    </div>
+</body>
+</html>
