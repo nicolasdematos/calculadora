@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Título da página</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+        }
+        #main{
+            position: absolute;
+            background-color: orange;
+            width: 300px;
+            height: 500px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 0px #c46900;
+        }
+        #screen{
+            margin: 30px 20px;
+            height: 70px;
+            background-color: #5ac0ff;
+            border-radius: 20px;
+            box-shadow: inset 5px 5px 0px #c46900;
+        }
+        .button{
+            width: 65px;
+            height: 60px;
+            background-color: #ff7e15;
+            margin: 5px 5px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 0px #ff5415;
+        }
+        .button:hover{
+            background-color: #af560f;
+            box-shadow: none;
+        }
+        #equal, #c{
+            width: 140px;
+            height: 60px;
+        }
+        .num{
+            font-size: 2em;
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <img src="eu.png" alt="">
+        <a href="https://www.instagram.com/nicolas.dma/">
+            <div class="button">Instagram</div>
+        </a>
+        <div class="button">GitHub</div>
+        <div class="button">whatsapp</div>
+    </div>
+</body>
+</html>
